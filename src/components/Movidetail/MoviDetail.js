@@ -6,6 +6,7 @@ const MovieDetail = ({selectedMovie, imageurl, movieGenres})=>{
             <div className={StyleSheet.movieImage}>
                 <img src={imageUrl} alt={selectedMovie.title}/> 
             </div>
+            
             <div>
                 <h2>
                     {selectedMovie.title} ({selectedMovie.release_date.split('-')[0]})</h2>
